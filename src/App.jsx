@@ -1,15 +1,20 @@
-import { useState } from 'react'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import NavBar from './Layout/NavBar'
+import Footer from './Layout/Footer'
+	
 
-
-function App() {
-
-return (
-		<> 
-			<h1 class="text-3xl font-bold underline">
-				Hello world!
-			</h1>    
-		</>
+export default function App() {
+	return (
+		<Router>
+			<div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
+				<NavBar />
+				<main style={{ flexGrow: 1, padding: '1rem' }}>
+					<Routes>
+						
+					</Routes>
+				</main>
+				<Footer />
+			</div>
+		</Router>
 	)
 }
-
-export default App

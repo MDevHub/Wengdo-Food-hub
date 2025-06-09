@@ -1,16 +1,20 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import NavBar from './Layout/NavBar'
 import Footer from './Layout/Footer'
-	
+import ZigzagDivider from './Layout/ZigZag'
+import Home from './Home'
+
+
 
 export default function App() {
 	return (
 		<Router>
 			<div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
 				<NavBar />
-				<main style={{ flexGrow: 1, padding: '1rem' }}>
+				{/* <ZigzagDivider /> */}
+				<main style={{ flexGrow: 1 }}>
 					<Routes>
-						
+						<Route path="/" element={<Home />} />
 					</Routes>
 				</main>
 				<Footer />

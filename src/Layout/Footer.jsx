@@ -18,7 +18,7 @@
                   <span className="block w-1/2 h-0.5 bg-red-600 mt-1"></span>
                </h3>
                <p className="mt-4 text-lg font-bold">(234) 913 552 4436</p>
-               <p className="mt-2 text-sm text-gray-400">musbaudeenabdulrahman040@gmail.com</p>
+               <p className="mt-2 text-sm text-gray-400"> <a href="mailto:musbaudeenabdulrahman040@gmail.com"> musbaudeenabdulrahman040@gmail.com </a></p>
                <p className="mt-2 text-sm text-gray-400">contact@gmail.com</p>
             </div>
 

@@ -58,7 +58,7 @@
             </div>
 
             {/* Second Layout */}
-            <div className="bg-red-700 text-white px-5 lg:px-28 py-3 flex justify-between items-center relative">
+            <div className="bg-red-700 text-white px-5 lg:px-28 py-6  flex justify-between items-center relative">
                <div className="flex items-center">
                   <img src={logo} alt="Logo" className="absolute top-[1px] h-40 w-auto object-contain z-30" />
                </div>
@@ -101,7 +101,7 @@
                      <span className="absolute left-0 -bottom-1 h-[2px] w-0 bg-yellow-400 transition-all duration-500 group-hover:w-full"></span>
                   </Link>
                   <div className="hidden lg:flex items-center space-x-4">
-                     <div className="w-[1px] h-13 bg-slate-100"></div>
+                     <div className="w-[1px] h-13 bg-[#ffffffad]"></div>
                      <div className="flex flex-col items-start">
                      <span className="text-yellow-400 font-bold text-lg">Order Now</span>
                      <span className="text-white text-sm mt-1">+234 913 552 4436</span>

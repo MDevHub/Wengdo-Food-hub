@@ -99,7 +99,7 @@
 						<span className="absolute inset-y-0 left-1/2 w-0 bg-amber-400 group-hover:w-full transform -translate-x-1/2 transition-all duration-700 ease-in-out"></span>
 						
 						{/* Text stays above */}
-						<span className="relative z-10">ORDER NOW</span>
+						<span className="relative z-10"><a href="/">ORDER NOW</a></span>
 					</button>
 
 				</div>

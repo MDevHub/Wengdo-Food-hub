@@ -30,7 +30,7 @@
             </div>
 
             {/* Opening Hours */}
-            <div>
+            <div className='text-center lg:text-left'>
                <h3 className="text-lg font-bold mb-2 relative inline-block">
                   Opening Hour
                   <span className="block w-1/2 h-0.5 bg-red-600 mt-1"></span>

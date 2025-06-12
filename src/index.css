@@ -7,3 +7,20 @@
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
 }
+
+@keyframes hoverColorCycle {
+  0% { background-color: #991b1b; }    
+  33% { background-color: #d3d319; }   
+  66% { background-color: #201f1f; }    
+  100% { background-color: #ac6161; }   
+}
+
+.animated-hover-button {
+  background-color: #991b1b; /* red-800 */
+  color: white;
+  transition: background-color 0.5s ease;
+}
+
+.animated-hover-button:hover {
+  animation: hoverColorCycle 3s infinite;
+}

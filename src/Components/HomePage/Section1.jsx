@@ -1,6 +1,6 @@
 	import React, { useEffect, useState } from 'react'
 	import burger1 from '../../assets/Images/burger1.png'
-	import burger2 from '../../assets/Images/burger2.png'
+	import burger2 from '../../assets/Images/burger-1.png'
 	import burger3 from '../../assets/Images/burger3.jpg'
 
 	const slides = [
@@ -94,14 +94,13 @@
 						{subText}
 					</p>
 
-					<button className="relative cursor-pointer group overflow-hidden py-3 px-9 font-medium rounded-sm w-fit mt-4 text-black bg-white">
-						{/* Animated BG from center outwards */}
-						<span className="absolute inset-y-0 left-1/2 w-0 bg-amber-400 group-hover:w-full transform -translate-x-1/2 transition-all duration-700 ease-in-out"></span>
-						
-						{/* Text stays above */}
-						<span className="relative z-10"><a href="/">ORDER NOW</a></span>
-					</button>
-
+						<button className="relative cursor-pointer group overflow-hidden py-3 px-9 font-medium rounded-sm w-fit mt-4 text-black bg-white">
+							{/* Animated BG from center outwards */}
+							<span className="absolute inset-y-0 left-1/2 w-0 bg-amber-400 group-hover:w-full transform -translate-x-1/2 transition-all duration-200 ease-in-out"></span>
+							
+							{/* Text stays above */}
+							<span className="relative z-10"><a href="/">ORDER NOW</a></span>
+						</button>
 				</div>
 
 				{/* Right Image */}

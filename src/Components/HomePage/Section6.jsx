@@ -9,7 +9,7 @@ const Section6 = () => {
       <div className='py-15 md:py-20 px-5 bg-amber-100'>
          <div className='grid grid-cols-1 md:grid-cols-2 w-full gap-5'>
 
-         <div className="bg-cover bg-center px-5 md:px-10 py-10 md:y-15 space-y-1 md:space-y-3 relative overflow-hidden rounded-xs"
+         <div className="bg-cover bg-center px-5 md:px-10 py-10 space-y-1 md:space-y-3 relative overflow-hidden rounded-xs"
             style={{ backgroundImage: `url(${product1})` }}
          >
             <div className="absolute top-2 -right-12 rotate-45 bg-red-600 text-white text-xs font-bold px-12 py-1 shadow-lg">HOT</div>
@@ -22,7 +22,7 @@ const Section6 = () => {
             </button>
          </div>
 
-         <div className="bg-cover bg-center z-10  px-5  md:px-10 py-10 md:y-15 space-y-1 md:space-y-4 relative overflow-hidden rounded-xs"
+         <div className="bg-cover bg-center z-10  px-5  md:px-10 py-10 space-y-1 md:space-y-4 relative overflow-hidden rounded-xs"
             style={{ backgroundImage: `url(${product2})` }}
          >
             <div className="absolute top-2 -right-12 rotate-45 bg-red-600 text-white text-xs font-bold px-12 py-1 shadow-lg">NEW</div>
@@ -35,7 +35,7 @@ const Section6 = () => {
             </button>
          </div>
 
-         <div className="bg-cover bg-center z-10  px-3  md:px-10 py-7 md:y-15 space-y-1 md:space-y-4 relative overflow-hidden rounded-xs"
+         <div className="bg-cover bg-center z-10  px-3  md:px-10 py-10  space-y-1 md:space-y-4 relative overflow-hidden rounded-xs"
             style={{ backgroundImage: `url(${product3})` }}
          >
             <div className="absolute top-2 -right-12 rotate-45 bg-red-600 text-white text-xs font-bold px-12 py-1 shadow-lg">HOT</div>
@@ -48,7 +48,7 @@ const Section6 = () => {
             </button>
          </div>
 
-         <div className="bg-cover bg-center z-10  px-5  md:px-10 py-10 md:y-15 space-y-1 md:space-y-4 relative overflow-hidden rounded-xs"
+         <div className="bg-cover bg-center z-10  px-5  md:px-10 py-10 space-y-1 md:space-y-4 relative overflow-hidden rounded-xs"
             style={{ backgroundImage: `url(${product4})` }}
          >
             <div className="absolute top-2 -right-12 rotate-45 bg-red-600 text-white text-xs font-bold px-12 py-1 shadow-lg">NEW</div>

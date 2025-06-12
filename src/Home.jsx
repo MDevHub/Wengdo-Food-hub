@@ -7,6 +7,7 @@ import Section5 from './Components/HomePage/Section5'
 import Section6 from './Components/HomePage/Section6'
 import Section7 from './Components/HomePage/Section7'
 import Section8 from './Components/HomePage/Section8'
+import Section9 from './Components/HomePage/Section9'
 
 const Home = () => {
   return (
@@ -19,6 +20,7 @@ const Home = () => {
          <Section6 />
          <Section7 />
          <Section8 />
+         <Section9 />
       </div>
   )
 }

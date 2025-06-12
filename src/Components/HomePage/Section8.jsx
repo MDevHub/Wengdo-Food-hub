@@ -11,7 +11,7 @@ const Section8 = () => {
 
 	return (
 		<div
-			className='section8-wrapper md:h-[65vh] p-10 bg-red-800 bg-right-bottom bg-contain bg-no-repeat transform transition-all duration-700 ease-out'
+			className='section8-wrapper md:h-[65vh] p-5 md:p-10 bg-red-800 bg-right-bottom bg-contain bg-no-repeat transform transition-all duration-700 ease-out'
 			style={{
 				backgroundImage: `url(${appImg})`,
 			}}

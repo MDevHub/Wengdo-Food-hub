@@ -81,13 +81,13 @@
             {/* Modal Content */}
             <div className="relative bg-white p-4 rounded max-w-3xl w-4/5">
                <img
-               src={currentImage}
-               alt="Enlarged"
-               className="w-full h-auto"
+                  src={currentImage}
+                  alt="Enlarged"
+                  className="w-full h-auto"
                />
                <button
-               onClick={closeLightbox}
-               className="absolute top-2 right-2 text-gray-700 bg-white rounded-full p-2"
+                  onClick={closeLightbox}
+                  className="absolute top-2 right-2 text-gray-700 bg-white rounded-full p-2"
                >
                &#x2715;
                </button>

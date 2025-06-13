@@ -67,7 +67,7 @@
 					style={{ opacity: fade ? 1 : 0 }}
 			>
 				{/* Left Content */}
-				<div className={`flex-1 flex flex-col justify-center space-y-4 pt-32 lg:pt-0 transform transition-all duration-700 ease-in-out ${
+				<div className={`flex-1 flex flex-col justify-center space-y-4 md:pt-32 lg:pt-0 transform transition-all duration-700 ease-in-out ${
 					fade ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-10'
 				}`}>
 					<p className={`text-yellow-400 text-xl sm:text-2xl md:text-3xl italic font-serif font-bold transform transition-all duration-700 ease-out ${

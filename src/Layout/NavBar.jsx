@@ -73,9 +73,9 @@
                   <div className="fixed top-[88px] bg-red-700 text-white shadow-md flex flex-col items-start w-full pl-5 py-4 space-y-3 z-30 transition-all duration-300 lg:hidden">
                      <Link to="/" onClick={toggleMenu} className="hover:text-yellow-400 font-semibold transition-colors">Home</Link>
                      <Link to="/about" onClick={toggleMenu} className="hover:text-yellow-400 font-semibold transition-colors">About</Link>
-                     <Link to="/system" onClick={toggleMenu} className="hover:text-yellow-400 font-semibold transition-colors">System</Link>
-                     <Link to="/blog" onClick={toggleMenu} className="hover:text-yellow-400 font-semibold transition-colors">Blog</Link>
-                     <Link to="/contact" onClick={toggleMenu} className="hover:text-yellow-400 font-semibold transition-colors">Contact</Link>
+                     <Link to="/" onClick={toggleMenu} className="hover:text-yellow-400 font-semibold transition-colors">System</Link>
+                     <Link to="/" onClick={toggleMenu} className="hover:text-yellow-400 font-semibold transition-colors">Blog</Link>
+                     <Link to="/" onClick={toggleMenu} className="hover:text-yellow-400 font-semibold transition-colors">Contact</Link>
                   </div>
                )}
 
@@ -88,15 +88,15 @@
                      <span className="text-white group-hover:text-yellow-400 transition-colors duration-300">About</span>
                      <span className="absolute left-0 -bottom-1 h-[2px] w-0 bg-yellow-400 transition-all duration-500 group-hover:w-full"></span>
                   </Link>
-                  <Link to="/system" className="relative group">
+                  <Link to="/" className="relative group">
                      <span className="text-white group-hover:text-yellow-400 transition-colors duration-300">System</span>
                      <span className="absolute left-0 -bottom-1 h-[2px] w-0 bg-yellow-400 transition-all duration-500 group-hover:w-full"></span>
                   </Link>
-                  <Link to="/blog" className="relative group">
+                  <Link to="/" className="relative group">
                      <span className="text-white group-hover:text-yellow-400 transition-colors duration-300">Blog</span>
                      <span className="absolute left-0 -bottom-1 h-[2px] w-0 bg-yellow-400 transition-all duration-500 group-hover:w-full"></span>
                   </Link>
-                  <Link to="/contact" className="relative group">
+                  <Link to="/" className="relative group">
                      <span className="text-white group-hover:text-yellow-400 transition-colors duration-300">Contact</span>
                      <span className="absolute left-0 -bottom-1 h-[2px] w-0 bg-yellow-400 transition-all duration-500 group-hover:w-full"></span>
                   </Link>

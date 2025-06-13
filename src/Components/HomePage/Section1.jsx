@@ -104,7 +104,7 @@
 				</div>
 
 				{/* Right Image */}
-				<div className="h-screen top-2 flex-1 flex justify-center items-end relative">
+				<div className="h-screen top-2 flex-1 hidden  md:flex justify-center items-end relative">
 					<img src={img} alt={foodName} className="h-[70%] object-contain" />
 	
 				</div>

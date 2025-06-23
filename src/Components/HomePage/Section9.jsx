@@ -7,11 +7,13 @@ import service4 from '../../assets/Images/service-4.png'
 
 const Section9 = () => {
   return (
-      <div className='bg-contain bg-left-bottom bg-no-repeat px-4 sm:px-9 md:px-13 lg:px-16 xl:px-28 py-20'
-         style={{
-            backgroundImage: `url(${serviceImg})`,
-         }}
-      >
+      <div className='relative px-4 sm:px-9 md:px-13 lg:px-16 xl:px-28 py-20'>
+         <div
+            className='hidden md:block absolute inset-0 bg-contain bg-left-bottom bg-no-repeat -z-10'
+            style={{
+               backgroundImage: `url(${serviceImg})`,
+            }}
+         />
          <div className='grid md:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-5'>
             <div className='px-5 md:px-10 py-15 items-center text-center border border-black space-y-3 border-dashed'>
                <img src={service1} alt="Service1" className='m-auto'/>

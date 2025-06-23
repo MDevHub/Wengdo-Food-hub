@@ -51,7 +51,7 @@ const testimonials = [
                         <img src={AuthorImg} alt={t.author} className="full rounded-full" />
                   </div>
                   <div  className=''>
-                     <blockquote className="text-gray-100 italic mb-4">&ldquo;{t.quote}&rdquo;</blockquote>
+                     <blockquote className="text-gray-100  italic mb-4">&ldquo;{t.quote}&rdquo;</blockquote>
                      <p className="font-semibold text-red-600">{t.author}</p>
                      <p className="text-sm text-gray-200">{t.role}</p>
                   </div>
